@@ -7,5 +7,5 @@ class ApplicationController < ActionController::Base
         redirect_to login_path
       end
     end
-  skip_before_action :require_login, only: [:new, :create]
+  skip_before_action :require_login, only: [:new, :create, :index]
 end

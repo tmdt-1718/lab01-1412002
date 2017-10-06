@@ -1,0 +1,25 @@
+@media screen and (max-width: 990px) {
+.footer{
+	width:100%;
+	background: #ddd;
+}
+.footer .app-name{ 
+    font-size: 5vh;
+    padding: 0 20px;
+    text-align: center;
+}
+.footer .info{
+	height: 100%;
+	font-size: 3vh;
+	padding: 10px;
+}
+.footer .info div{
+	height: 25%;
+	display: flex;
+}
+.footer .info div p{
+	font-weight: 700;
+	padding-left: 5px;
+}
+
+}

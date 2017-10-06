@@ -1,0 +1,51 @@
+@media screen and (min-width: 991px) {
+.footer{
+	width:100%;
+	height: 100px;
+	background: #ddd;
+	display: flex;
+}
+.navbar.navbar-default{
+	margin-bottom: 0px;
+}
+.footer .app-name{ 
+	width: 20%;
+	height: 100%;
+	font-size: 2em;
+    line-height: 100px;
+    padding: 0 20px;
+}
+.footer .info{
+	width: 80%;
+	height: 100%;
+	font-size: 1em;
+}
+.footer .info div{
+	height: 25%;
+	display: flex;
+}
+.footer .info div p{
+	font-weight: 700;
+	padding-left: 5px;
+}
+.main-contents{
+	display: flex;
+
+}
+.topbar{
+		width: 15%;
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+.topbar .home{
+	    height: 30px;
+}
+.final-contents{
+	padding:20px;
+}
+}
+
+
+
+
