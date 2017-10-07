@@ -1,3 +1,114 @@
 // Place all the styles related to the albums controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.album-item{
+	overflow: hidden;
+    padding: 10px;
+    background: #f2f2f2;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.album-item:hover{
+	background: #ddd;
+}
+.album-item .thumb{
+	width: 300px;
+	height: 200px;
+	border-radius: 2px;
+}
+
+.album-item .title{
+	width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+.album-item .title:hover{
+        text-decoration: none;
+
+}
+.album-item .view{
+	width: 100%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.album-item .author{
+	width: 100%;
+    text-align: center;
+}
+.album-links{
+	color:#000;
+}
+.album-links div{
+	text-decoration: none;
+
+}
+.wrap{
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	opacity: 0.3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 2;
+}
+.wrap2{
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+
+	display: none;
+}
+.photo-preview{
+/*	width: 50%;
+  margin: 0 auto;*/
+  margin: auto;  
+	position: relative;
+	height: 90vh;
+	width: 100vw;
+
+}
+.wrap2 .close{
+	height: 10vh;
+	width: 100vw;
+}
+.photo-preview .show-div{
+margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+.photo-preview .show-div img{
+	height: 400px;
+}
+.photo-preview .show-div .button-close{
+    width: 30px;
+    height: 30px;
+    background: #000;
+    border-radius: 50%;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+

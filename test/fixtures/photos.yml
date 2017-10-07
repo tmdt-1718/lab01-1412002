@@ -2,10 +2,10 @@
 
 one:
   link: MyString
-  album: 1
   view: 1
+  album: 1
 
 two:
   link: MyString
-  album: 1
   view: 1
+  album: 1

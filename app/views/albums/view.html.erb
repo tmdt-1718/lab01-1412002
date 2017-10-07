@@ -1,0 +1,13 @@
+<%= @photo.each_with_index do |key| %>
+	<div class="album-item photo-item" id="<%= key.id %>">
+		<div class="thumb">
+			<img class="thumb" src="<%= key.link %>">
+		</div>
+		<div class="view"><%= key.view %> view</div>
+	</div>
+<% end %>
+<div class="wrap">
+	
+</div>
+<div class="wrap2">
+</div>

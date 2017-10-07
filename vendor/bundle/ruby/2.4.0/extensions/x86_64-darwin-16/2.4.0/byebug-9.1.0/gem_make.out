@@ -1,0 +1,19 @@
+current directory: /Users/truongan/Documents/lab01-1412002/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+/Users/truongan/.rvm/rubies/ruby-2.4.2/bin/ruby -r ./siteconf20171007-43425-12osqtn.rb extconf.rb
+creating Makefile
+
+current directory: /Users/truongan/Documents/lab01-1412002/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/truongan/Documents/lab01-1412002/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/truongan/Documents/lab01-1412002/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20171007-43425-e392pl/byebug

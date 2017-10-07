@@ -6,11 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Album.create([{ title: 'Star Wars' , view: 0 , user_id:1}]);
-Album.create([{ title: 'Star 2' , view: 0 , user_id:2}]);
-Album.create([{ title: 'Star Wars 3' , view: 0 , user_id:2}]);
-Album.create([{ title: 'Star Wars 4' , view: 0 , user_id:4}]);
-Album.create([{ title: 'Star Wars 5' , view: 0 , user_id:5}]);
+Album.create([{ title: 'Star Wars 1' , view: 0 , user_id:1,thumb:"/album1/1.jpg"}]);
+Album.create([{ title: 'Star Wars 2' , view: 0 , user_id:2,thumb:"/album2/1.jpg"}]);
+Album.create([{ title: 'Star Wars 3' , view: 0 , user_id:2,thumb:"/album3/1.jpg"}]);
+Album.create([{ title: 'Star Wars 4' , view: 0 , user_id:4,thumb:"/album4/1.jpg"}]);
+Album.create([{ title: 'Star Wars 5' , view: 0 , user_id:5,thumb:"/album5/1.jpg"}]);
+Album.create([{ title: 'Star Wars 6' , view: 0 , user_id:5,thumb:"/album6/1.jpg"}]);
 
 Photo.create([
 				{link:"/album1/1.jpg",album:1,view:0},

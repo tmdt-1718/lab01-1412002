@@ -43,6 +43,10 @@
 }
 .final-contents{
 	padding:20px;
+	    display: flex;
+        width: 85%;
+    flex-wrap: wrap;
+
 }
 }
 
