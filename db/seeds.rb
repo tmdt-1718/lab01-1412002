@@ -6,50 +6,50 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Album.create([{ title: 'Star Wars 1' , view: 0 , user_id:1,thumb:"/album1/1.jpg"}]);
-# Album.create([{ title: 'Star Wars 2' , view: 0 , user_id:2,thumb:"/album2/1.jpg"}]);
-# Album.create([{ title: 'Star Wars 3' , view: 0 , user_id:2,thumb:"/album3/1.jpg"}]);
-# Album.create([{ title: 'Star Wars 4' , view: 0 , user_id:4,thumb:"/album4/1.jpg"}]);
-# Album.create([{ title: 'Star Wars 5' , view: 0 , user_id:5,thumb:"/album5/1.jpg"}]);
-# Album.create([{ title: 'Star Wars 6' , view: 0 , user_id:5,thumb:"/album6/1.jpg"}]);
+Album.create([{ title: 'Star Wars 1' , view: 0 , user_id:1,thumb:"/album1/1.jpg"}]);
+Album.create([{ title: 'Star Wars 2' , view: 0 , user_id:2,thumb:"/album2/1.jpg"}]);
+Album.create([{ title: 'Star Wars 3' , view: 0 , user_id:2,thumb:"/album3/1.jpg"}]);
+Album.create([{ title: 'Star Wars 4' , view: 0 , user_id:4,thumb:"/album4/1.jpg"}]);
+Album.create([{ title: 'Star Wars 5' , view: 0 , user_id:5,thumb:"/album5/1.jpg"}]);
+Album.create([{ title: 'Star Wars 6' , view: 0 , user_id:5,thumb:"/album6/1.jpg"}]);
 
-# Photo.create([
-# 				{link:"/album1/1.jpg",album:1,view:0},
-# 				{link:"/album1/2.jpg",album:1,view:0},
-# 				{link:"/album1/3.jpg",album:1,view:0},
-# 				{link:"/album1/4.jpg",album:1,view:0},
-# 				{link:"/album1/5.jpg",album:1,view:0},
-# 				{link:"/album1/6.jpg",album:1,view:0},
-# 				{link:"/album2/1.jpg",album:2,view:0},
-# 				{link:"/album2/2.jpg",album:2,view:0},
-# 				{link:"/album2/3.jpg",album:2,view:0},
-# 				{link:"/album2/4.jpg",album:2,view:0},
-# 				{link:"/album2/5.jpg",album:2,view:0},
-# 				{link:"/album2/6.jpg",album:2,view:0},
-# 				{link:"/album3/1.jpg",album:3,view:0},
-# 				{link:"/album3/2.jpg",album:3,view:0},
-# 				{link:"/album3/3.jpg",album:3,view:0},
-# 				{link:"/album3/4.jpg",album:3,view:0},
-# 				{link:"/album3/5.jpg",album:3,view:0},
-# 				{link:"/album3/6.jpg",album:3,view:0},
-# 				{link:"/album4/1.jpg",album:4,view:0},
-# 				{link:"/album4/2.jpg",album:4,view:0},
-# 				{link:"/album4/3.jpg",album:4,view:0},
-# 				{link:"/album4/4.jpg",album:4,view:0},
-# 				{link:"/album4/5.jpg",album:4,view:0},
-# 				{link:"/album4/6.jpg",album:4,view:0},
-# 				{link:"/album5/1.jpg",album:5,view:0},
-# 				{link:"/album5/2.jpg",album:5,view:0},
-# 				{link:"/album5/3.jpg",album:5,view:0},
-# 				{link:"/album5/4.jpg",album:5,view:0},
-# 				{link:"/album5/5.jpg",album:5,view:0},
-# 				{link:"/album5/6.jpg",album:5,view:0},
-# 				{link:"/album6/1.jpg",album:6,view:0},
-# 				{link:"/album6/2.jpg",album:6,view:0},
-# 				{link:"/album6/3.jpg",album:6,view:0},
-# 				{link:"/album6/4.jpg",album:6,view:0},
-# 				{link:"/album6/5.jpg",album:6,view:0},
-# 				{link:"/album6/6.jpg",album:6,view:0}])
+Photo.create([
+				{link:"/album1/1.jpg",album:1,view:0},
+				{link:"/album1/2.jpg",album:1,view:0},
+				{link:"/album1/3.jpg",album:1,view:0},
+				{link:"/album1/4.jpg",album:1,view:0},
+				{link:"/album1/5.jpg",album:1,view:0},
+				{link:"/album1/6.jpg",album:1,view:0},
+				{link:"/album2/1.jpg",album:2,view:0},
+				{link:"/album2/2.jpg",album:2,view:0},
+				{link:"/album2/3.jpg",album:2,view:0},
+				{link:"/album2/4.jpg",album:2,view:0},
+				{link:"/album2/5.jpg",album:2,view:0},
+				{link:"/album2/6.jpg",album:2,view:0},
+				{link:"/album3/1.jpg",album:3,view:0},
+				{link:"/album3/2.jpg",album:3,view:0},
+				{link:"/album3/3.jpg",album:3,view:0},
+				{link:"/album3/4.jpg",album:3,view:0},
+				{link:"/album3/5.jpg",album:3,view:0},
+				{link:"/album3/6.jpg",album:3,view:0},
+				{link:"/album4/1.jpg",album:4,view:0},
+				{link:"/album4/2.jpg",album:4,view:0},
+				{link:"/album4/3.jpg",album:4,view:0},
+				{link:"/album4/4.jpg",album:4,view:0},
+				{link:"/album4/5.jpg",album:4,view:0},
+				{link:"/album4/6.jpg",album:4,view:0},
+				{link:"/album5/1.jpg",album:5,view:0},
+				{link:"/album5/2.jpg",album:5,view:0},
+				{link:"/album5/3.jpg",album:5,view:0},
+				{link:"/album5/4.jpg",album:5,view:0},
+				{link:"/album5/5.jpg",album:5,view:0},
+				{link:"/album5/6.jpg",album:5,view:0},
+				{link:"/album6/1.jpg",album:6,view:0},
+				{link:"/album6/2.jpg",album:6,view:0},
+				{link:"/album6/3.jpg",album:6,view:0},
+				{link:"/album6/4.jpg",album:6,view:0},
+				{link:"/album6/5.jpg",album:6,view:0},
+				{link:"/album6/6.jpg",album:6,view:0}])
 Blog.create({
 	title:"Tìm thấy đầu của nữ nhà báo chết trên tàu ngầm",
 	body:"Hãng tin AP hôm 7-10 cho biết các bộ phận cơ thể và quần áo của cô Kim được tìm thấy cách đây 1 ngày. Chúng nằm trong túi nhựa cùng với 1 con dao và các mảnh kim loại nặng, mục đích làm cho cái túi không thể nổi lên mặt nước.
