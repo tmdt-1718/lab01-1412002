@@ -20,7 +20,7 @@ class BlogController < ApplicationController
 	end
 
 	def save
-		@blog = Blog.new(title:params[:title],body:params[:body],user_id:params[:user_id])
+		@blog = Blog.new(title:params[:title],body:params[:body],user_id:params[:user_id],view:0)
 		if @blog.save
 			# flash[:success] = "Register success"
 			redirect_to "/blogs/" + @blog.id.to_s

@@ -5,7 +5,7 @@
 Thành viên:
 * [x] **1412002** Dương Trường An (1412002)
 
-URL: **URL hosting của bài tập**
+URL: **https://lab01-1412002.herokuapp.com**
 
 ## Yêu cầu
 

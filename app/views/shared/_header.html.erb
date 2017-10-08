@@ -30,6 +30,13 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+<script type="text/javascript">
+                    var pathname = window.location.pathname; 
+                    var linkarr = pathname.split("/")[1];
+                    if (!linkarr) linkarr="home";
+                    $(".nav.navbar-nav li").removeClass("active");
+                    $(".li-"+linkarr).addClass("active");
+                </script>
 
 <!-- <div class="left-menu">
     <div class="left-home">Home</div>
