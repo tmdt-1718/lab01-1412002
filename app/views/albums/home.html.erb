@@ -7,7 +7,8 @@
 		</div>
 		<div class="title"><%= key.title%></div>
 		<div class="view"><%= key.view %> view</div>
-		<div class="author"><%= key.user_id %></div>
+		<% @user= User.find(key.user_id) %>
+		<div class="author"><%= @user.name %></div>
 	</div>
 	</a>
 <% end %>
