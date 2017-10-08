@@ -1,0 +1,15 @@
+<div class="create-form">
+	<form action="/blogs/create" method="post">
+	<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+	<input type="hidden" name="user_id" value="<%= @user %>">
+	<input class="create-title-blog" name="title" placeholder="Blog title">
+		
+	</input>
+	<textarea class="create-body" name="body" placeholder="Contents">
+		
+	</textarea>
+	<div class="div-submit">
+		<button type="submit" class="btn-submit">Save</button>
+	</div>
+	</form>
+</div>

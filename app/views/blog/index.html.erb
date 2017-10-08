@@ -1,1 +1,19 @@
-blog page
+<% if @user %>
+<div class="blog-tool">
+	<div class="btn-create"><a href="/blogs/create">Create new</a></div>
+</div>
+<% end %>
+<% @blogs.each do |key|%>
+	<div class="blog-item">
+		<div class="blog-title">
+			<a href="/blogs/<%=key.id%>/<%= key.title%>"><%= key.title%></a>
+		</div>
+		<div class="blog-body">
+			<%= key.body.slice(0,200)%>...
+		</div>
+		<div class="blog-view">
+			<%= key.view %> view
+		</div>
+	</div>
+	
+<% end %>

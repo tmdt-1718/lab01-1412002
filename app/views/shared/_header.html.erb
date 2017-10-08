@@ -13,16 +13,24 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-                <li><a href="../albums">Albums</a></li>
-                <li><a href="../logs">Blogs</a></li>
-                <li><a href="../about">About</a></li>
+                <li class="active li-home"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                <li class="li-albums"><a href="/albums">Albums</a></li>
+                <li class="li-blogs"><a href="/blogs">Blogs</a></li>
+                <li class="li-about"><a href="/about">About</a></li>
+                <% if session[:user_id] %>
+                <li class="login-button"><a href="/logout">Logout</a></li>
+
+                <%else%>
+                <li class="login-button"><a href="/login">Login</a></li>
+                <%end%>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
+        
     </div>
     <!-- /.container-fluid -->
 </nav>
+
 <!-- <div class="left-menu">
     <div class="left-home">Home</div>
     <div class="left-home">Albums</div>

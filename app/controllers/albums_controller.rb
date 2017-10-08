@@ -1,6 +1,6 @@
 class AlbumsController < ApplicationController
 	def home
-		@album = Album.take(6)
+		@album = Album.all
 	end
 
 	def view

@@ -48,6 +48,9 @@
     flex-wrap: wrap;
 
 }
+.login-button a{
+	color: #347ab7 !important;
+}
 }
 
 

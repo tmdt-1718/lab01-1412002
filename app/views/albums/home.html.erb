@@ -1,5 +1,6 @@
-<%= @album.each_with_index do |key| %>
-	<a class="album-links" href="/albums/<%=key.id%>">
+
+<% @album.each do |key| %>
+		<a class="album-links" href="/albums/<%=key.id%>">
 	<div class="album-item">
 		<div class="thumb">
 			<img class="thumb" src="<%= key.thumb %>">

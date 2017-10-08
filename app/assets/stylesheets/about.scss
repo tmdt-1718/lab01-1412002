@@ -1,3 +1,26 @@
 // Place all the styles related to the about controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.avatar{
+	    background: url(/avatar.jpg) no-repeat center;
+    /* background-color: white; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin:10px;
+}
+.member-item{
+display: flex;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    }
+.info{
+	padding:10px;
+}
+.about-contents{
+	
+    width: 100%;
+
+}

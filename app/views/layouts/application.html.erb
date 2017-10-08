@@ -3,6 +3,8 @@
 <head>
     <title>Lab01</title>
     <script type="text/javascript" src='/jquery.js'></script>
+    
+
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -13,6 +15,19 @@
         <div class="main-contents">
           <%= render "shared/leftmenu" %>
           <div class="final-contents">
+            <ol class="breadcrumb" style="width:100%">
+                <script type="text/javascript">
+                    var pathname = window.location.pathname; 
+                    linkarr = pathname.split("/");
+                    $(".breadcrumb").html("");
+                    linkarr.map(key=>{
+                        if(!key) key="Home";
+                        key= key.toUpperCase();
+                        if(key.length<20)
+                            $(".breadcrumb").append('<li class="breadcrumb-item">'+key+'</li>')
+                    })
+                </script>
+            </ol>     
             <%= yield %>
           </div>
         </div>

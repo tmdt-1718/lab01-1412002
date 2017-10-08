@@ -1,11 +1,12 @@
-<%= @photo.each_with_index do |key| %>
+<script type="text/javascript" src="/album.js"></script>
+<% @photo.each do |key| %>
 	<div class="album-item photo-item" id="<%= key.id %>">
 		<div class="thumb">
 			<img class="thumb" src="<%= key.link %>">
 		</div>
 		<div class="view"><%= key.view %> view</div>
 	</div>
-<% end %>
+<%end%>
 <div class="wrap">
 	
 </div>
