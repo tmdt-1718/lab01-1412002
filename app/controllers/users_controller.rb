@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 		@user = User.new users_params
 		if @user.save
 			flash[:success] = "Register success"
-			redirect_to "/"
+			redirect_to "/login"
 		else
 			flash[:success] = "Register failed"
 			render :new
